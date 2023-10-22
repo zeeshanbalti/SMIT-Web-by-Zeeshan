@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+ import './App.css';
+import React from 'react';
+import Navbar from './Navbar/index'
+import SecondSec from './SecondSec/index'
+import Third from './ThirdSec/index'
+import Four from './FourSection/index'
+import Card from './FifthSec/index';
+import CardHeading from './fifthSec1/index'
+ import CustomFooter from './Footer/index'
+ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Router>
+
+        <Navbar /> 
+        <SecondSec /> 
+        <Third />
+        <Four />
+        <CardHeading />
+         <Card />
+          <CustomFooter />
+    </Router>
+
+    );
 }
 
 export default App;

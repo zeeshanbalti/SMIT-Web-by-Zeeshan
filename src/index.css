@@ -5,6 +5,27 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+          
+  background-color: #0c0c0c; /* Dark background color */
+  color: #000;
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  background: radial-gradient(white 1px, transparent 1px), #0c0c0c;
+  background-size: 3px 3px;
+  animation: moveStars 20s linear infinite;
+}
+
+@keyframes moveStars {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 30px 30px;
+  }
 }
 
 code {

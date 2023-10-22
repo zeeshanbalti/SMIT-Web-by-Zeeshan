@@ -1,0 +1,40 @@
+.introduction-details {
+    max-width: 100%;
+    padding: 30px;
+    margin-top: 8rem;
+     /* background-color: #fff; */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+     
+  }
+  
+  .introduction-details h2 {
+    font-size: 74px;
+    margin: 0;
+  }
+  .introduction-details h4 {
+    font-size: 20px;
+    margin: 0;
+    color: #819664;
+  }
+  .introduction-details p {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+
+  @media screen and (max-width: 768px) {
+    .introduction-details {
+      max-width: 90%;
+    }
+  
+    .introduction-details h2 {
+      font-size: 20px;
+    }
+    .introduction-details h4 {
+        font-size: 10px;
+      }
+  
+    .introduction-details p {
+      font-size: 14px;
+    }
+  }

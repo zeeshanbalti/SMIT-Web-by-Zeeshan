@@ -1,0 +1,45 @@
+/* BeautifulHeading.css */
+
+.beautiful-heading {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(to bottom, #3498db, #6dd5fa); /* Gradient background */
+    color: #fff; /* Text color */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    margin-top: 4rem;
+  }
+  
+  .beautiful-heading h1 {
+    font-size: 36px; /* Heading font size */
+    margin: 0; /* Remove margin */
+    padding: 5px; /* Spacing for the heading */
+  }
+  
+  .beautiful-heading h2 {
+    font-size: 48px; /* Subheading font size */
+    margin: 0; /* Remove margin */
+    padding: 5px; /* Spacing for the subheading */
+  }
+  
+  .beautiful-heading p {
+    font-size: 20px; /* Paragraph font size */
+    margin: 0; /* Remove margin */
+    padding: 10px; /* Spacing for the paragraph */
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .beautiful-heading h1 {
+      font-size: 24px; /* Adjust heading font size for smaller screens */
+    }
+  
+    .beautiful-heading h2 {
+      font-size: 36px; /* Adjust subheading font size for smaller screens */
+    }
+  
+    .beautiful-heading p {
+      font-size: 16px; /* Adjust paragraph font size for smaller screens */
+    }
+  }
+  
